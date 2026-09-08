@@ -50,11 +50,10 @@ Servidor rodando em http://localhost:3000
 
 Basta abrir esse endereço no navegador.
 
-## Configurando a API do Last.fm
-
+# Configurando a API do Last.fm
 Antes de gerar o card, você precisa de uma API Key do Last.fm (é gratuita):
-Acesse last.fm/api/account/create e crie uma key.
-Cole a key no campo e clique em aplicar
+1. Acesse [last.fm/api/account/create](https://www.last.fm/api/account/create) e crie uma key.
+2. Cole a key no campo e clique em aplicar.
 A key fica salva só no `localStorage` do seu navegador — não é enviada nem armazenada pelo servidor.
 
 ![Card do Last.Month](assets/screenshot.png)
