@@ -1,6 +1,6 @@
 # Last.Month
 
-Servidor Express que serve o card do Last.Month e gera downloads do card em PNG (usando Puppeteer).
+Projeto de um card compartilhável para as redes sociais da sua atividade mensal do Last.fm
 
 ## Pré-requisitos
 
@@ -30,6 +30,7 @@ npm install
 
 ![Card do Last.Month](assets/screenshot2.png)
 
+
 ![Card do Last.Month](assets/screenshot3.png)
 
 Isso vai instalar o `express` e o `puppeteer` (o Puppeteer baixa também uma versão do Chromium, então essa etapa pode demorar um pouco).
@@ -49,5 +50,12 @@ Servidor rodando em http://localhost:3000
 
 Basta abrir esse endereço no navegador.
 
+## Configurando a API do Last.fm
+
+Antes de gerar o card, você precisa de uma API Key do Last.fm (é gratuita):
+Acesse last.fm/api/account/create e crie uma key.
+Cole a key no campo e clique em aplicar
+A key fica salva só no `localStorage` do seu navegador — não é enviada nem armazenada pelo servidor.
 
 ![Card do Last.Month](assets/screenshot.png)
+
