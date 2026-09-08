@@ -28,6 +28,10 @@ Dentro da pasta do projeto (onde está o `package.json`), rode no terminal:
 npm install
 ```
 
+![Card do Last.Month](assets/screenshot2.png)
+
+![Card do Last.Month](assets/screenshot3.png)
+
 Isso vai instalar o `express` e o `puppeteer` (o Puppeteer baixa também uma versão do Chromium, então essa etapa pode demorar um pouco).
 
 ## Iniciando o servidor
@@ -35,6 +39,7 @@ Isso vai instalar o `express` e o `puppeteer` (o Puppeteer baixa também uma ver
 ```
 npm start
 ```
+![Card do Last.Month](assets/screenshot4.png)
 
 O terminal vai mostrar:
 
